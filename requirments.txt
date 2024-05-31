@@ -1,5 +1,0 @@
-biopython==1.83
-joblib==1.4.0
-numpy==1.26.4
-pandas==2.2.1
-lightgbm== 4.3.0
