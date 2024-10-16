@@ -2,7 +2,7 @@
 # Protein-Protein Interaction Prediction
 This repository contains the model and code for predicting protein-protein interactions (PPIs) by inputting protein sequences.
 
-The trained model is implemented using a Streamlit applet, which can be accessed through the following link: PPI Prediction App. Users can predict the interaction between two proteins by uploading their corresponding sequences.
+The trained model is implemented using a Streamlit applet, which can be accessed through the following link: https://ppi-prediction-3nxezkuhkspsbkvxwdixvc.streamlit.app/. Users can predict the interaction between two proteins by uploading their corresponding sequences.
 
 ## Dataset and Model Training
 The model was trained on a dataset of 5,000 protein sequences retrieved from UniProt. Various machine learning algorithms were tested, and the best model was selected for deployment in the applet. The LightGBM (LGBM) algorithm demonstrated superior performance compared to Support Vector Machine (SVM) and XGBoost (XGB).
