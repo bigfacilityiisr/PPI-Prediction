@@ -1,14 +1,36 @@
 
-# PROTEIN-PROTEIN INTERACTION PREDICTION
+#Protein-Protein Interaction Prediction
+This repository contains the model and code for predicting protein-protein interactions (PPIs) by inputting protein sequences.
 
-This repository contains model and code for predicting protein-protein interaction by inputing protein sequence.
+The trained model is implemented using a Streamlit applet, which can be accessed through the following link: PPI Prediction App. Users can predict the interaction between two proteins by uploading their corresponding sequences.
 
-The trained model is implemented using stramlit applet and can be accesed through https://ppi-prediction-3nxezkuhkspsbkvxwdixvc.streamlit.app/ and the interaction between two proteins can be predicted by uploading their corresponding sequnces.
+##Dataset and Model Training
+The model was trained on a dataset of 5,000 protein sequences retrieved from UniProt. Various machine learning algorithms were tested, and the best model was selected for deployment in the applet. The LightGBM (LGBM) algorithm demonstrated superior performance compared to Support Vector Machine (SVM) and XGBoost (XGB).
 
-The model is trained on a dataset of 5000 protein sequnces retrived from uniport. The datasset was trained with diffrent ML algorithms and the best model was selected for the deploying the in the applet. LGBM algorithm showed the best perfomance on the datset compared to SVM and XGB. 
+##Abstract of the Study
+In this study, we evaluated the performance of machine learning techniques for predicting protein-protein interactions using sequential data. By employing diverse computational instruments and methods, our objective was to enhance the understanding of PPIs and assess the effectiveness of machine learning techniques in predicting these interactions.
 
-## Abstract of the study
-In this study, we evaluated the performance of machine learning techniques on the protein-protein interaction prediction using sequential data. By employing diverse computational instruments and methods, our objective was to enhance the understanding of PPIs and how well they can be predicted with machine learning techniques. A strong dataset was used to train and evaluate the model, and satisfactory performance metrics were obtained. Cross-validation methods were used to make sure the model could be used to a wide range of scenarios. The findings show that machine learning techniques have the capacity to anticipate PPIs, providing information that may guide future research and biotechnological applications.
+A robust dataset was utilized to train and evaluate the model, yielding satisfactory performance metrics. Cross-validation methods were implemented to ensure that the model is applicable across various scenarios. The findings indicate that machine learning techniques can successfully predict PPIs, providing insights that may guide future research and biotechnological applications.
+
+Getting Started
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/your-repository.git
+Install the required packages: Make sure to install the necessary libraries to run the code. You can do this by running:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Streamlit app: After installing the dependencies, you can run the app locally using:
+
+bash
+Copy code
+streamlit run app.py
+
+
+
 
 
 
