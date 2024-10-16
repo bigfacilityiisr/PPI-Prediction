@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # Load your trained model
-model = joblib.load ('Final Model.pkl')
+model = joblib.load ('Best Model.pkl')
 top_n_features = np.load('top_n_features.npy')
 
 def calculate_aac(sequence):
