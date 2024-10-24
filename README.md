@@ -17,7 +17,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/your-repository.git
+https://github.com/bigfacilityiisr/PPI-Prediction.git
 Install the required packages: Make sure to install the necessary libraries to run the code. You can do this by running:
 
 bash
